@@ -1,0 +1,145 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(120deg, hsl(15, 20%, 96%) 0%, #fffdfd 100%);
+    animation: backgroundAnimation 10s ease infinite;
+}
+
+header {
+    background-color: #263827;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+h2 {
+    text-align: center;
+    margin-top: 25px;
+  
+  
+}
+h3 {
+    text-align: center;
+    margin-top: 25px;
+    
+ 
+   
+   
+  
+}
+h4 {
+    text-align: center;
+    margin-top: 25px;
+  
+ 
+ 
+  
+}
+
+h5 {
+    text-align: center;
+    margin-top: 25px;
+  
+  
+}
+
+
+.container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.subject-button {
+    margin: 20px;
+    padding: 15px 35px;
+    font-size: 22px;
+    border-radius: 40px;
+    border-style: groove;
+    border-bottom: #0ffcad;
+    color: rgb(223, 216, 216);
+    cursor: pointer; 
+    transition: all 0.3s ease-in-out; 
+}
+
+.subject1 { background-color: #080808; }
+.subject2 { background-color: #080808; }
+.subject3 { background-color: #050505; }
+.subject4 { background-color: #070707; }
+.subject5 { background-color: #0a0a0a; }
+.subject6 { background-color: #0e0f0f; }
+.subject7 { background-color: #0d0d0e; }
+.subject8 { background-color: #230ee9; }
+.subject9 { background-color: #230ee9; }
+.subject10 { background-color: #230ee9; }
+.subject11 { background-color: #230ee9; }
+.subject12 { background-color: #230ee9; }
+.subject13 { background-color: #230ee9; }
+.subject14 { background-color: #230ee9; }
+
+
+
+.subject-button:hover {
+    transform: scale(1.1);
+}
+
+/* Dynamic Contact Section */
+.contact {
+    text-align: center;
+    margin: 30px 0;
+}
+
+.contact-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.contact-button {
+    padding: 5px 10px;
+    font-size: 15px;
+    color: rgb(12, 11, 11);
+    border-radius: 15px;
+    text-decoration: none;
+    background-size: 100% auto;
+    transition: all 0.4s ease-in-out;
+}
+
+.call {
+    background-image: linear-gradient(to right, #43e97b, #0ffcad, #16ee5e);
+}
+
+.whatsapp {
+    background-image: linear-gradient(to right, #25d366, #128c7e, #25d366);
+}
+
+.instagram {
+    background-image: linear-gradient(to right, #b8232a, #fd1d1d, #fcb045);
+}
+
+.contact-button:hover {
+    background-position: right center;
+    transform: scale(1.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+@keyframes backgroundAnimation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
