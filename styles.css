@@ -69,18 +69,18 @@ h5 {
     transition: all 0.3s ease-in-out; 
 }
 
-.subject1 { background-color: #080808; }
-.subject2 { background-color: #080808; }
-.subject3 { background-color: #050505; }
-.subject4 { background-color: #070707; }
-.subject5 { background-color: #0a0a0a; }
+.BOM { background-color: #080808; }
+.MOM { background-color: #080808; }
+.FSP { background-color: #050505; }
+.EVS(AEC) { background-color: #070707; }
+.HINDI(GE) { background-color: #0a0a0a; }
 .subject6 { background-color: #0e0f0f; }
 .subject7 { background-color: #0d0d0e; }
-.subject8 { background-color: #230ee9; }
-.subject9 { background-color: #230ee9; }
-.subject10 { background-color: #230ee9; }
-.subject11 { background-color: #230ee9; }
-.subject12 { background-color: #230ee9; }
+.STENO { background-color: #230ee9; }
+.CAB1 { background-color: #230ee9; }
+.ACCOUNTS { background-color: #230ee9; }
+.ENGLISH(GE) { background-color: #230ee9; }
+.HINDI(AEC) { background-color: #230ee9; }
 .subject13 { background-color: #230ee9; }
 .subject14 { background-color: #230ee9; }
 
